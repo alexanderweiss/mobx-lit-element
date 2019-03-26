@@ -1,0 +1,27 @@
+{
+  "name": "mobx-lit-element",
+  "version": "0.1.0",
+  "description": "MobX @observer decorator for LitElement",
+  "main": "mobx-lit-element.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderweiss/mobx-lit-element.git"
+  },
+  "keywords": [
+    "mobx",
+    "lit-element",
+    "lit-html"
+  ],
+  "peerDependencies": {
+    "mobx": ">=4.0.0"
+  },
+  "author": "Alexander Weiss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexanderweiss/mobx-lit-element/issues"
+  },
+  "homepage": "https://github.com/alexanderweiss/mobx-lit-element#readme"
+}
