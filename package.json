@@ -1,6 +1,6 @@
 {
   "name": "mobx-lit-element",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MobX @observer decorator for LitElement",
   "main": "mobx-lit-element.js",
   "scripts": {
