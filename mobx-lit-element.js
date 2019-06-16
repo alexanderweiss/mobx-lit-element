@@ -3,9 +3,9 @@ import { Reaction } from 'mobx'
 export function observer (element) {
 	return class extends element {
 
-		update () {
+		update (...args) {
 			let result
-			this._mobxReaction.track(() => { result = super.update() })
+			this._mobxReaction.track(() => { result = super.update(...args) })
 			return result
 		}
 
