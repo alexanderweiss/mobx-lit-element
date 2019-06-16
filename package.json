@@ -16,7 +16,8 @@
     "lit-html"
   ],
   "peerDependencies": {
-    "mobx": ">=4.0.0"
+    "mobx": ">=4.0.0",
+    "lit-html": ">=1.0.0"
   },
   "author": "Alexander Weiss",
   "license": "MIT",
