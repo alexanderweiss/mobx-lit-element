@@ -14,6 +14,7 @@ export function observer (element) {
 				`${this.constructor.name || this.nodeName}.update()`,
 				() => this.requestUpdate()
 			)
+			if (this.hasUpdated) this.requestUpdate()
 		}
 
 		disconnectedCallback () {
