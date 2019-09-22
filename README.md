@@ -8,7 +8,7 @@ npm install mobx-lit-element --save
 ~~~
 or
 ~~~
-yard add mobx-lit-element
+yarn add mobx-lit-element
 ~~~
 
 And then simply decorate your custom elements:
